@@ -5,7 +5,7 @@
       "error",
       {
         "ignoreUrls": true,
-        "code": 80
+        "code": 120
       }
     ],
     "prefer-template": "off",
@@ -18,11 +18,13 @@
         "maxEOF": 1
       }
     ],
-    "no-var": 1,
+    //this added for temp dev
+    "no-unused-vars": 0,
+    //"no-var": 1,
     "camelcase": 1,
     "no-new-wrappers": 1,
     "no-nested-ternary": 1,
-    "no-console": 1,
+    // "no-console": 1,
     "no-template-curly-in-string": 1,
     "no-self-compare": 1,
     "import/prefer-default-export": 0,
